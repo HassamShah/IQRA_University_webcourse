@@ -1,0 +1,888 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="pragma" content="no-cache" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="bootstrap.bundle.js"></script>
+    <meta http-equiv="cache-control" content="max-age=604800" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <style>
+        .product_view .modal-dialog{max-width: 800px; width: 100%;}
+        .pre-cost{text-decoration: line-through; color: #a5a5a5;}
+        .space-ten{padding: 10px 0;}
+    </style>
+    <title>Website title - bootstrap html template</title>
+
+    <link href="images/favicon.ico" rel="shortcut icon" type="image/x-icon">
+
+    <!-- jQuery -->
+    <script src="js/jquery-2.0.0.min.js" type="text/javascript"></script>
+
+    <!-- Bootstrap4 files-->
+    <script src="js/bootstrap.bundle.min.js" type="text/javascript"></script>
+    <link href="bootstrap.css" rel="stylesheet" type="text/css"/>
+
+    <!-- Font awesome 5 -->
+    <link href="fonts/fontawesome/css/all.min.css" type="text/css" rel="stylesheet">
+
+    <!-- plugin: fancybox  -->
+    <script src="plugins/fancybox/fancybox.min.js" type="text/javascript"></script>
+    <link href="plugins/fancybox/fancybox.min.css" type="text/css" rel="stylesheet">
+
+    <!-- custom style -->
+    <link href="ui.css" rel="stylesheet" type="text/css"/>
+    <link href="responsive.css" rel="stylesheet" media="only screen and (max-width: 1200px)" />
+
+    <!-- custom javascript -->
+    <script src="js/script.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+        /// some script
+
+        // jquery ready start
+        $(document).ready(function() {
+            // jQuery code
+
+        });
+        // jquery end
+    </script>
+
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="index.html">
+        <img id="logoimg" src="logo.png" alt="logo">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">About us</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Product Category
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="Custom_pc.html">Custom PC</a>
+                    <a class="dropdown-item" href="Work_stations.html">Work Stations</a>
+                    <a class="dropdown-item" href="The_CPU.html">Processors</a>
+                    <a class="dropdown-item" href="Graphic_Cards.html">Graphic Cards</a>
+                    <a class="dropdown-item" href="Console_accessories.html">Console & Gaming Accessories</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Exclusive Offer</a>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link disabled" href="#">Cart</a>
+            </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+    </div>
+</nav>
+<!-- ========================= SECTION CONTENT ========================= -->
+<section class="section-content padding-y">
+    <div class="container">
+
+        <div class="row">
+            <aside class="col-md-3">
+
+                <div class="card">
+                    <article class="filter-group">
+                        <header class="card-header">
+                            <a href="#" data-toggle="collapse" data-target="#collapse_1" aria-expanded="true" class="">
+                                <i class="icon-control fa fa-chevron-down"></i>
+                                <h6 class="title">Product type</h6>
+                            </a>
+                        </header>
+                        <div class="filter-content collapse show" id="collapse_1" style="">
+                            <div class="card-body">
+                                <form class="pb-3">
+                                    <div class="input-group">
+                                        <input type="text" class="form-control" placeholder="Search">
+                                        <div class="input-group-append">
+                                            <button class="btn btn-light" type="button"><i class="fa fa-search"></i></button>
+                                        </div>
+                                    </div>
+                                </form>
+
+                                <ul class="list-menu">
+                                    <li><a href="Custom_pc.html">Custom Pc  </a></li>
+                                    <li><a href="Console_accessories.html">Gaming Accessories </a></li>
+                                    <li><a href="The_CPU.html">The CPU  </a></li>
+                                    <li><a href="Graphic_Cards.html">Graphic Cards  </a></li>
+                                    <li><a href="Work_stations.html">Work Station </a></li>
+                                    <li><a href="#">Exclusive Offers</a></li>
+                                </ul>
+
+                            </div> <!-- card-body.// -->
+                        </div>
+                    </article> <!-- filter-group  .// -->
+
+
+                </div> <!-- card.// -->
+
+            </aside> <!-- col.// -->
+            <main class="col-md-9">
+                <h2 style="text-align: center">The Thread Rippers</h2>
+                <header class="border-bottom mb-4 pb-3">
+                    <div class="form-inline">
+                        <select class="mr-2 form-control">
+                            <option>Latest items</option>
+                            <option>Trending</option>
+                            <option>Most Popular</option>
+                            <option>Cheapest</option>
+                        </select>
+                    </div>
+                </header><!-- sect-heading -->
+
+                <div class="row">
+                    <div class="col-md-4">
+                        <figure class="card card-product-grid">
+                            <div class="img-wrap">
+                                <span class="badge badge-danger"> NEW </span>
+                                <img src="data:image/jpeg;base64,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">
+                                <a class="btn-overlay" href="#"><i class="fa fa-search-plus"></i> <button type="button" style="width: 100%; height: 35px" class="btn btn-primary" data-toggle="modal" data-target="#product_view">
+                                    Quick view</button></a>
+                            </div> <!-- img-wrap.// -->
+                            <figcaption class="info-wrap">
+                                <div class="fix-height">
+                                    <a href="#" class="title">Great item name goes here</a>
+                                    <div class="price-wrap mt-2">
+                                        <span class="price">$1280</span>
+                                        <del class="price-old">$1980</del>
+                                    </div> <!-- price-wrap.// -->
+                                </div>
+                                <a href="#" class="btn btn-block btn-primary">Add to cart </a>
+                            </figcaption>
+                        </figure>
+                    </div> <!-- col.// -->
+                    <div class="modal fade product_view" id="product_view">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" id="example" class="btn btn-primary">
+                                        <a style="color: white" href="The_CPU.html">
+                                            close
+                                        </a>
+                                    </button>
+                                    <h3 class="modal-title">HTML5 is a markup language</h3>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="row">
+                                        <div class="col-md-6 product_img">
+                                            <img src="data:image/jpeg;base64,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" style="width: 100%">
+                                        </div>
+                                        <div class="col-md-6 product_content">
+                                            <h4>Product Id: <span>51526</span></h4>
+                                            <div class="rating">
+                                                <span class="glyphicon glyphicon-star"></span>
+                                                <span class="glyphicon glyphicon-star"></span>
+                                                <span class="glyphicon glyphicon-star"></span>
+                                                <span class="glyphicon glyphicon-star"></span>
+                                                <span class="glyphicon glyphicon-star"></span>
+                                                (10 reviews)
+                                            </div>
+                                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                                            <h3 class="cost"><span class="glyphicon glyphicon-usd"></span> 75.00 <small class="pre-cost"><span class="glyphicon glyphicon-usd"></span> 60.00</small></h3>
+                                            <div class="row">
+                                                <div class="col-md-4 col-sm-6 col-xs-12">
+                                                    <select class="form-control" name="select">
+                                                        <option value="" selected="">Color</option>
+                                                        <option value="black">Black</option>
+                                                        <option value="white">White</option>
+                                                        <option value="gold">Gold</option>
+                                                        <option value="rose gold">Rose Gold</option>
+                                                    </select>
+                                                </div>
+                                                <!-- end col -->
+                                                <div class="col-md-4 col-sm-6 col-xs-12">
+                                                    <select class="form-control" name="select">
+                                                        <option value="">Capacity</option>
+                                                        <option value="">#</option>
+                                                        <option value="">#</option>
+                                                        <option value="">#comingsoon</option>
+                                                        <option value="">#</option>
+                                                    </select>
+                                                </div>
+                                                <!-- end col -->
+                                                <div class="col-md-4 col-sm-12">
+                                                    <select class="form-control" name="select">
+                                                        <option value="" selected="">QTY</option>
+                                                        <option value="">1</option>
+                                                        <option value="">2</option>
+                                                        <option value="">3</option>
+                                                    </select>
+                                                </div>
+                                                <!-- end col -->
+                                            </div>
+                                            <div class="space-ten"></div>
+                                            <div class="btn-ground">
+                                                <button type="button" class="btn btn-primary"><span class="glyphicon glyphicon-shopping-cart"></span> Add To Cart</button>
+                                                <button type="button" class="btn btn-primary"><span class="glyphicon glyphicon-heart"></span> Add To Wishlist</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <figure class="card card-product-grid">
+                            <div class="img-wrap">
+                                <img src="data:image/jpeg;base64,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">
+                                <a class="btn-overlay" href="#"><i class="fa fa-search-plus"></i> <button type="button" style="width: 100%; height: 35px" class="btn btn-primary" data-toggle="modal" data-target="#product_view1">
+                                    Quick view</button></a>
+                            </div> <!-- img-wrap.// -->
+                            <figcaption class="info-wrap">
+                                <div class="fix-height">
+                                    <a href="#" class="title">Product name goes here just for demo item</a>
+                                    <div class="price-wrap mt-2">
+                                        <span class="price">$1280</span>
+                                    </div> <!-- price-wrap.// -->
+                                </div>
+                                <a href="#" class="btn btn-block btn-primary">Add to cart </a>
+                            </figcaption>
+                        </figure>
+                    </div> <!-- col.// -->
+                    <div class="modal fade product_view" id="product_view1">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" id="example1" class="btn btn-primary">
+                                        <a style="color: white" href="The_CPU.html">
+                                            close
+                                        </a>
+                                    </button>
+                                    <h3 class="modal-title">HTML5 is a markup language</h3>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="row">
+                                        <div class="col-md-6 product_img">
+                                            <img src="https://i.pinimg.com/736x/26/bb/ac/26bbace2f3ba5e6f8d9de5214f6405bb.jpg" style="width: 100%">
+                                        </div>
+                                        <div class="col-md-6 product_content">
+                                            <h4>Product Id: <span>51526</span></h4>
+                                            <div class="rating">
+                                                <span class="glyphicon glyphicon-star"></span>
+                                                <span class="glyphicon glyphicon-star"></span>
+                                                <span class="glyphicon glyphicon-star"></span>
+                                                <span class="glyphicon glyphicon-star"></span>
+                                                <span class="glyphicon glyphicon-star"></span>
+                                                (10 reviews)
+                                            </div>
+                                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                                            <h3 class="cost"><span class="glyphicon glyphicon-usd"></span> 75.00 <small class="pre-cost"><span class="glyphicon glyphicon-usd"></span> 60.00</small></h3>
+                                            <div class="row">
+                                                <div class="col-md-4 col-sm-6 col-xs-12">
+                                                    <select class="form-control" name="select">
+                                                        <option value="" selected="">Color</option>
+                                                        <option value="black">Black</option>
+                                                        <option value="white">White</option>
+                                                        <option value="gold">Gold</option>
+                                                        <option value="rose gold">Rose Gold</option>
+                                                    </select>
+                                                </div>
+                                                <!-- end col -->
+                                                <div class="col-md-4 col-sm-6 col-xs-12">
+                                                    <select class="form-control" name="select">
+                                                        <option value="">Capacity</option>
+                                                        <option value="">#</option>
+                                                        <option value="">#</option>
+                                                        <option value="">#comingsoon</option>
+                                                        <option value="">#</option>
+                                                    </select>
+                                                </div>
+                                                <!-- end col -->
+                                                <div class="col-md-4 col-sm-12">
+                                                    <select class="form-control" name="select">
+                                                        <option value="" selected="">QTY</option>
+                                                        <option value="">1</option>
+                                                        <option value="">2</option>
+                                                        <option value="">3</option>
+                                                    </select>
+                                                </div>
+                                                <!-- end col -->
+                                            </div>
+                                            <div class="space-ten"></div>
+                                            <div class="btn-ground">
+                                                <button type="button" class="btn btn-primary"><span class="glyphicon glyphicon-shopping-cart"></span> Add To Cart</button>
+                                                <button type="button" class="btn btn-primary"><span class="glyphicon glyphicon-heart"></span> Add To Wishlist</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <figure class="card card-product-grid">
+                            <div class="img-wrap">
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPObq9Cuac4o4AoFraQAELheUMSNYRLVrXyg&usqp=CAU">
+                                <a class="btn-overlay" href="#"><i class="fa fa-search-plus"></i> <button type="button" style="width: 100%; height: 35px" class="btn btn-primary" data-toggle="modal" data-target="#product_view2">
+                                    Quick view</button></a>
+                            </div> <!-- img-wrap.// -->
+                            <figcaption class="info-wrap">
+                                <div class="fix-height">
+                                    <a href="#" class="title">Product name goes here just for demo item</a>
+                                    <div class="price-wrap mt-2">
+                                        <span class="price">$1280</span>
+                                    </div> <!-- price-wrap.// -->
+                                </div>
+                                <a href="#" class="btn btn-block btn-primary">Add to cart </a>
+                            </figcaption>
+                        </figure>
+                    </div> <!-- col.// -->
+                    <div class="modal fade product_view" id="product_view2">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" id="example2" class="btn btn-primary">
+                                        <a style="color: white" href="The_CPU.html">
+                                            close
+                                        </a>
+                                    </button>
+                                    <h3 class="modal-title">HTML5 is a markup language</h3>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="row">
+                                        <div class="col-md-6 product_img">
+                                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPObq9Cuac4o4AoFraQAELheUMSNYRLVrXyg&usqp=CAU" style="width: 100%;">
+                                        </div>
+                                        <div class="col-md-6 product_content">
+                                            <h4>Product Id: <span>51526</span></h4>
+                                            <div class="rating">
+                                                <span class="glyphicon glyphicon-star"></span>
+                                                <span class="glyphicon glyphicon-star"></span>
+                                                <span class="glyphicon glyphicon-star"></span>
+                                                <span class="glyphicon glyphicon-star"></span>
+                                                <span class="glyphicon glyphicon-star"></span>
+                                                (10 reviews)
+                                            </div>
+                                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                                            <h3 class="cost"><span class="glyphicon glyphicon-usd"></span> 75.00 <small class="pre-cost"><span class="glyphicon glyphicon-usd"></span> 60.00</small></h3>
+                                            <div class="row">
+                                                <div class="col-md-4 col-sm-6 col-xs-12">
+                                                    <select class="form-control" name="select">
+                                                        <option value="" selected="">Color</option>
+                                                        <option value="black">Black</option>
+                                                        <option value="white">White</option>
+                                                        <option value="gold">Gold</option>
+                                                        <option value="rose gold">Rose Gold</option>
+                                                    </select>
+                                                </div>
+                                                <!-- end col -->
+                                                <div class="col-md-4 col-sm-6 col-xs-12">
+                                                    <select class="form-control" name="select">
+                                                        <option value="">Capacity</option>
+                                                        <option value="">#</option>
+                                                        <option value="">#</option>
+                                                        <option value="">#comingsoon</option>
+                                                        <option value="">#</option>
+                                                    </select>
+                                                </div>
+                                                <!-- end col -->
+                                                <div class="col-md-4 col-sm-12">
+                                                    <select class="form-control" name="select">
+                                                        <option value="" selected="">QTY</option>
+                                                        <option value="">1</option>
+                                                        <option value="">2</option>
+                                                        <option value="">3</option>
+                                                    </select>
+                                                </div>
+                                                <!-- end col -->
+                                            </div>
+                                            <div class="space-ten"></div>
+                                            <div class="btn-ground">
+                                                <button type="button" class="btn btn-primary"><span class="glyphicon glyphicon-shopping-cart"></span> Add To Cart</button>
+                                                <button type="button" class="btn btn-primary"><span class="glyphicon glyphicon-heart"></span> Add To Wishlist</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <figure class="card card-product-grid">
+                            <div class="img-wrap">
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJ7bSLZlrDf_yv9IgwcM5QKg8hz2PblEl0Qg&usqp=CAU">
+                                <a class="btn-overlay" href="#"><i class="fa fa-search-plus"></i> <button type="button" style="width: 100%; height: 35px" class="btn btn-primary" data-toggle="modal" data-target="#product_view3">
+                                    Quick view</button></a>
+                            </div> <!-- img-wrap.// -->
+                            <figcaption class="info-wrap">
+                                <div class="fix-height">
+                                    <a href="#" class="title">Product name goes here just for demo item</a>
+                                    <div class="price-wrap mt-2">
+                                        <span class="price">$1280</span>
+                                    </div> <!-- price-wrap.// -->
+                                </div>
+                                <a href="#" class="btn btn-block btn-primary">Add to cart </a>
+                            </figcaption>
+                        </figure>
+                    </div> <!-- col.// -->
+                    <div class="modal fade product_view" id="product_view3">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" id="example3" class="btn btn-primary">
+                                        <a style="color: white" href="The_CPU.html">
+                                            close
+                                        </a>
+                                    </button>
+                                    <h3 class="modal-title">HTML5 is a markup language</h3>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="row">
+                                        <div class="col-md-6 product_img">
+                                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJ7bSLZlrDf_yv9IgwcM5QKg8hz2PblEl0Qg&usqp=CAU" style="width: 100%">                                        </div>
+                                        <div class="col-md-6 product_content">
+                                            <h4>Product Id: <span>51526</span></h4>
+                                            <div class="rating">
+                                                <span class="glyphicon glyphicon-star"></span>
+                                                <span class="glyphicon glyphicon-star"></span>
+                                                <span class="glyphicon glyphicon-star"></span>
+                                                <span class="glyphicon glyphicon-star"></span>
+                                                <span class="glyphicon glyphicon-star"></span>
+                                                (10 reviews)
+                                            </div>
+                                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                                            <h3 class="cost"><span class="glyphicon glyphicon-usd"></span> 75.00 <small class="pre-cost"><span class="glyphicon glyphicon-usd"></span> 60.00</small></h3>
+                                            <div class="row">
+                                                <div class="col-md-4 col-sm-6 col-xs-12">
+                                                    <select class="form-control" name="select">
+                                                        <option value="" selected="">Color</option>
+                                                        <option value="black">Black</option>
+                                                        <option value="white">White</option>
+                                                        <option value="gold">Gold</option>
+                                                        <option value="rose gold">Rose Gold</option>
+                                                    </select>
+                                                </div>
+                                                <!-- end col -->
+                                                <div class="col-md-4 col-sm-6 col-xs-12">
+                                                    <select class="form-control" name="select">
+                                                        <option value="">Capacity</option>
+                                                        <option value="">#</option>
+                                                        <option value="">#</option>
+                                                        <option value="">#comingsoon</option>
+                                                        <option value="">#</option>
+                                                    </select>
+                                                </div>
+                                                <!-- end col -->
+                                                <div class="col-md-4 col-sm-12">
+                                                    <select class="form-control" name="select">
+                                                        <option value="" selected="">QTY</option>
+                                                        <option value="">1</option>
+                                                        <option value="">2</option>
+                                                        <option value="">3</option>
+                                                    </select>
+                                                </div>
+                                                <!-- end col -->
+                                            </div>
+                                            <div class="space-ten"></div>
+                                            <div class="btn-ground">
+                                                <button type="button" class="btn btn-primary"><span class="glyphicon glyphicon-shopping-cart"></span> Add To Cart</button>
+                                                <button type="button" class="btn btn-primary"><span class="glyphicon glyphicon-heart"></span> Add To Wishlist</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <figure class="card card-product-grid">
+                            <div class="img-wrap">
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDRXgUUBMnADRlPdddOPUpAPVc8oVlgorpRg&usqp=CAU">
+                                <a class="btn-overlay" href="#"><i class="fa fa-search-plus"></i> <button type="button" style="width: 100%; height: 35px" class="btn btn-primary" data-toggle="modal" data-target="#product_view4">
+                                    Quick view</button></a>
+                            </div> <!-- img-wrap.// -->
+                            <figcaption class="info-wrap">
+                                <div class="fix-height">
+                                    <a href="#" class="title">Product name goes here just for demo item</a>
+                                    <div class="price-wrap mt-2">
+                                        <span class="price">$1280</span>
+                                    </div> <!-- price-wrap.// -->
+                                </div>
+                                <a href="#" class="btn btn-block btn-primary">Add to cart </a>
+                            </figcaption>
+                        </figure>
+                    </div> <!-- col.// -->
+                    <div class="modal fade product_view" id="product_view4">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" id="example4" class="btn btn-primary">
+                                        <a style="color: white" href="The_CPU.html">
+                                            close
+                                        </a>
+                                    </button>
+                                    <h3 class="modal-title">HTML5 is a markup language</h3>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="row">
+                                        <div class="col-md-6 product_img">
+                                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDRXgUUBMnADRlPdddOPUpAPVc8oVlgorpRg&usqp=CAU" style="width: 100%;">
+
+                                        </div>
+                                        <div class="col-md-6 product_content">
+                                            <h4>Product Id: <span>51526</span></h4>
+                                            <div class="rating">
+                                                <span class="glyphicon glyphicon-star"></span>
+                                                <span class="glyphicon glyphicon-star"></span>
+                                                <span class="glyphicon glyphicon-star"></span>
+                                                <span class="glyphicon glyphicon-star"></span>
+                                                <span class="glyphicon glyphicon-star"></span>
+                                                (10 reviews)
+                                            </div>
+                                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                                            <h3 class="cost"><span class="glyphicon glyphicon-usd"></span> 75.00 <small class="pre-cost"><span class="glyphicon glyphicon-usd"></span> 60.00</small></h3>
+                                            <div class="row">
+                                                <div class="col-md-4 col-sm-6 col-xs-12">
+                                                    <select class="form-control" name="select">
+                                                        <option value="" selected="">Color</option>
+                                                        <option value="black">Black</option>
+                                                        <option value="white">White</option>
+                                                        <option value="gold">Gold</option>
+                                                        <option value="rose gold">Rose Gold</option>
+                                                    </select>
+                                                </div>
+                                                <!-- end col -->
+                                                <div class="col-md-4 col-sm-6 col-xs-12">
+                                                    <select class="form-control" name="select">
+                                                        <option value="">Capacity</option>
+                                                        <option value="">#</option>
+                                                        <option value="">#</option>
+                                                        <option value="">#comingsoon</option>
+                                                        <option value="">#</option>
+                                                    </select>
+                                                </div>
+                                                <!-- end col -->
+                                                <div class="col-md-4 col-sm-12">
+                                                    <select class="form-control" name="select">
+                                                        <option value="" selected="">QTY</option>
+                                                        <option value="">1</option>
+                                                        <option value="">2</option>
+                                                        <option value="">3</option>
+                                                    </select>
+                                                </div>
+                                                <!-- end col -->
+                                            </div>
+                                            <div class="space-ten"></div>
+                                            <div class="btn-ground">
+                                                <button type="button" class="btn btn-primary"><span class="glyphicon glyphicon-shopping-cart"></span> Add To Cart</button>
+                                                <button type="button" class="btn btn-primary"><span class="glyphicon glyphicon-heart"></span> Add To Wishlist</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <figure class="card card-product-grid">
+                            <div class="img-wrap">
+                                <img src="https://d3nevzfk7ii3be.cloudfront.net/igi/5fFeYrbdOCyuKhLN.medium">
+                                <a class="btn-overlay" href="#"><i class="fa fa-search-plus"></i> <button type="button" style="width: 100%; height: 35px" class="btn btn-primary" data-toggle="modal" data-target="#product_view5">
+                                    Quick view</button></a>
+                            </div> <!-- img-wrap.// -->
+                            <figcaption class="info-wrap">
+                                <div class="fix-height">
+                                    <a href="#" class="title">Product name goes here just for demo item</a>
+                                    <div class="price-wrap mt-2">
+                                        <span class="price">$1280</span>
+                                    </div> <!-- price-wrap.// -->
+                                </div>
+                                <a href="#" class="btn btn-block btn-primary">Add to cart </a>
+                            </figcaption>
+                        </figure>
+                    </div> <!-- col.// -->
+                    <div class="modal fade product_view" id="product_view5">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" id="example5" class="btn btn-primary">
+                                        <a style="color: white" href="The_CPU.html">
+                                            close
+                                        </a>
+                                    </button>
+                                    <h3 class="modal-title">HTML5 is a markup language</h3>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="row">
+                                        <div class="col-md-6 product_img">
+                                            <img src="https://d3nevzfk7ii3be.cloudfront.net/igi/5fFeYrbdOCyuKhLN.medium" style="width: 100%">
+                                        </div>
+                                        <div class="col-md-6 product_content">
+                                            <h4>Product Id: <span>51526</span></h4>
+                                            <div class="rating">
+                                                <span class="glyphicon glyphicon-star"></span>
+                                                <span class="glyphicon glyphicon-star"></span>
+                                                <span class="glyphicon glyphicon-star"></span>
+                                                <span class="glyphicon glyphicon-star"></span>
+                                                <span class="glyphicon glyphicon-star"></span>
+                                                (10 reviews)
+                                            </div>
+                                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                                            <h3 class="cost"><span class="glyphicon glyphicon-usd"></span> 75.00 <small class="pre-cost"><span class="glyphicon glyphicon-usd"></span> 60.00</small></h3>
+                                            <div class="row">
+                                                <div class="col-md-4 col-sm-6 col-xs-12">
+                                                    <select class="form-control" name="select">
+                                                        <option value="" selected="">Color</option>
+                                                        <option value="black">Black</option>
+                                                        <option value="white">White</option>
+                                                        <option value="gold">Gold</option>
+                                                        <option value="rose gold">Rose Gold</option>
+                                                    </select>
+                                                </div>
+                                                <!-- end col -->
+                                                <div class="col-md-4 col-sm-6 col-xs-12">
+                                                    <select class="form-control" name="select">
+                                                        <option value="">Capacity</option>
+                                                        <option value="">#</option>
+                                                        <option value="">#</option>
+                                                        <option value="">#comingsoon</option>
+                                                        <option value="">#</option>
+                                                    </select>
+                                                </div>
+                                                <!-- end col -->
+                                                <div class="col-md-4 col-sm-12">
+                                                    <select class="form-control" name="select">
+                                                        <option value="" selected="">QTY</option>
+                                                        <option value="">1</option>
+                                                        <option value="">2</option>
+                                                        <option value="">3</option>
+                                                    </select>
+                                                </div>
+                                                <!-- end col -->
+                                            </div>
+                                            <div class="space-ten"></div>
+                                            <div class="btn-ground">
+                                                <button type="button" class="btn btn-primary"><span class="glyphicon glyphicon-shopping-cart"></span> Add To Cart</button>
+                                                <button type="button" class="btn btn-primary"><span class="glyphicon glyphicon-heart"></span> Add To Wishlist</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <figure class="card card-product-grid">
+                            <div class="img-wrap">
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQD6AEB5mbgx0frWAiqndvuFhyQMovFvlUu4Q&usqp=CAU">
+                                <a class="btn-overlay" href="#"><i class="fa fa-search-plus"></i><button type="button" style="width: 100%; height: 35px" class="btn btn-primary" data-toggle="modal" data-target="#product_view6">
+                                    Quick view</button></a>
+                            </div> <!-- img-wrap.// -->
+                            <figcaption class="info-wrap">
+                                <div class="fix-height">
+                                    <a href="#" class="title">Product name goes here just for demo item</a>
+                                    <div class="price-wrap mt-2">
+                                        <span class="price">$1280</span>
+                                    </div> <!-- price-wrap.// -->
+                                </div>
+                                <a href="#" class="btn btn-block btn-primary">Add to cart </a>
+                            </figcaption>
+                        </figure>
+                    </div> <!-- col.// -->
+                    <div class="modal fade product_view" id="product_view6">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" id="example6" class="btn btn-primary">
+                                        <a style="color: white" href="The_CPU.html">
+                                            close
+                                        </a>
+                                    </button>
+                                    <h3 class="modal-title">HTML5 is a markup language</h3>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="row">
+                                        <div class="col-md-6 product_img">
+                                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQD6AEB5mbgx0frWAiqndvuFhyQMovFvlUu4Q&usqp=CAU" style="width: 100%">                                        </div>
+                                        <div class="col-md-6 product_content">
+                                            <h4>Product Id: <span>51526</span></h4>
+                                            <div class="rating">
+                                                <span class="glyphicon glyphicon-star"></span>
+                                                <span class="glyphicon glyphicon-star"></span>
+                                                <span class="glyphicon glyphicon-star"></span>
+                                                <span class="glyphicon glyphicon-star"></span>
+                                                <span class="glyphicon glyphicon-star"></span>
+                                                (10 reviews)
+                                            </div>
+                                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                                            <h3 class="cost"><span class="glyphicon glyphicon-usd"></span> 75.00 <small class="pre-cost"><span class="glyphicon glyphicon-usd"></span> 60.00</small></h3>
+                                            <div class="row">
+                                                <div class="col-md-4 col-sm-6 col-xs-12">
+                                                    <select class="form-control" name="select">
+                                                        <option value="" selected="">Color</option>
+                                                        <option value="black">Black</option>
+                                                        <option value="white">White</option>
+                                                        <option value="gold">Gold</option>
+                                                        <option value="rose gold">Rose Gold</option>
+                                                    </select>
+                                                </div>
+                                                <!-- end col -->
+                                                <div class="col-md-4 col-sm-6 col-xs-12">
+                                                    <select class="form-control" name="select">
+                                                        <option value="">Capacity</option>
+                                                        <option value="">#</option>
+                                                        <option value="">#</option>
+                                                        <option value="">#comingsoon</option>
+                                                        <option value="">#</option>
+                                                    </select>
+                                                </div>
+                                                <!-- end col -->
+                                                <div class="col-md-4 col-sm-12">
+                                                    <select class="form-control" name="select">
+                                                        <option value="" selected="">QTY</option>
+                                                        <option value="">1</option>
+                                                        <option value="">2</option>
+                                                        <option value="">3</option>
+                                                    </select>
+                                                </div>
+                                                <!-- end col -->
+                                            </div>
+                                            <div class="space-ten"></div>
+                                            <div class="btn-ground">
+                                                <button type="button" class="btn btn-primary"><span class="glyphicon glyphicon-shopping-cart"></span> Add To Cart</button>
+                                                <button type="button" class="btn btn-primary"><span class="glyphicon glyphicon-heart"></span> Add To Wishlist</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <figure class="card card-product-grid">
+                            <div class="img-wrap">
+                                <img src="https://venturebeat.com/wp-content/uploads/2020/04/intel-processor-2.jpg?w=1200&strip=all">
+                                <a class="btn-overlay" href="#"><i class="fa fa-search-plus"></i><button type="button" style="width: 100%; height: 35px" class="btn btn-primary" data-toggle="modal" data-target="#product_view7">
+                                    Quick view</button></a>
+                            </div> <!-- img-wrap.// -->
+                            <figcaption class="info-wrap">
+                                <div class="fix-height">
+                                    <a href="#" class="title">Product name goes here just for demo item</a>
+                                    <div class="price-wrap mt-2">
+                                        <span class="price">$1280</span>
+                                    </div> <!-- price-wrap.// -->
+                                </div>
+                                <a href="#" class="btn btn-block btn-primary">Add to cart </a>
+                            </figcaption>
+                        </figure>
+                    </div> <!-- col.// -->
+                    <div class="modal fade product_view" id="product_view7">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" id="example7" class="btn btn-primary">
+                                        <a style="color: white" href="The_CPU.html">
+                                            close
+                                        </a>
+                                    </button>
+                                    <h3 class="modal-title">HTML5 is a markup language</h3>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="row">
+                                        <div class="col-md-6 product_img">
+                                            <img src="https://venturebeat.com/wp-content/uploads/2020/04/intel-processor-2.jpg?w=1200&strip=all" style="width: 100%;">                                        </div>
+                                        <div class="col-md-6 product_content">
+                                            <h4>Product Id: <span>51526</span></h4>
+                                            <div class="rating">
+                                                <span class="glyphicon glyphicon-star"></span>
+                                                <span class="glyphicon glyphicon-star"></span>
+                                                <span class="glyphicon glyphicon-star"></span>
+                                                <span class="glyphicon glyphicon-star"></span>
+                                                <span class="glyphicon glyphicon-star"></span>
+                                                (10 reviews)
+                                            </div>
+                                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                                            <h3 class="cost"><span class="glyphicon glyphicon-usd"></span> 75.00 <small class="pre-cost"><span class="glyphicon glyphicon-usd"></span> 60.00</small></h3>
+                                            <div class="row">
+                                                <div class="col-md-4 col-sm-6 col-xs-12">
+                                                    <select class="form-control" name="select">
+                                                        <option value="" selected="">Color</option>
+                                                        <option value="black">Black</option>
+                                                        <option value="white">White</option>
+                                                        <option value="gold">Gold</option>
+                                                        <option value="rose gold">Rose Gold</option>
+                                                    </select>
+                                                </div>
+                                                <!-- end col -->
+                                                <div class="col-md-4 col-sm-6 col-xs-12">
+                                                    <select class="form-control" name="select">
+                                                        <option value="">Capacity</option>
+                                                        <option value="">#</option>
+                                                        <option value="">#</option>
+                                                        <option value="">#comingsoon</option>
+                                                        <option value="">#</option>
+                                                    </select>
+                                                </div>
+                                                <!-- end col -->
+                                                <div class="col-md-4 col-sm-12">
+                                                    <select class="form-control" name="select">
+                                                        <option value="" selected="">QTY</option>
+                                                        <option value="">1</option>
+                                                        <option value="">2</option>
+                                                        <option value="">3</option>
+                                                    </select>
+                                                </div>
+                                                <!-- end col -->
+                                            </div>
+                                            <div class="space-ten"></div>
+                                            <div class="btn-ground">
+                                                <button type="button" class="btn btn-primary"><span class="glyphicon glyphicon-shopping-cart"></span> Add To Cart</button>
+                                                <button type="button" class="btn btn-primary"><span class="glyphicon glyphicon-heart"></span> Add To Wishlist</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div> <!-- row end.// -->
+
+
+                <nav class="mt-4" aria-label="Page navigation sample">
+                    <ul class="pagination">
+                        <li class="page-item disabled"><a class="page-link" href="#">Previous</a></li>
+                        <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                        <li class="page-item"><a class="page-link" href="#">2</a></li>
+                        <li class="page-item"><a class="page-link" href="#">3</a></li>
+                        <li class="page-item"><a class="page-link" href="#">Next</a></li>
+                    </ul>
+                </nav>
+
+            </main> <!-- col.// -->
+
+        </div>
+
+    </div> <!-- container .//  -->
+</section>
+<!-- ========================= SECTION CONTENT END// ========================= -->
+
+<!-- ========================= FOOTER ========================= -->
+<footer class="container-fluid" id="footer">
+    <p class="float-right"><a style="color: black" href="#">Back to top</a></p>
+    <p>&copy; 2017-2018 Company, Inc. &middot; <a style="color: black" href="#">Privacy</a> &middot; <a href="#" style="color: black">Terms</a></p>
+</footer>
+<!-- ========================= FOOTER END // ========================= -->
+
+
+
+</body>
+</html>

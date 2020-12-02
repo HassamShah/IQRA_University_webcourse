@@ -1,0 +1,897 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="pragma" content="no-cache" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="bootstrap.bundle.js"></script>
+    <meta http-equiv="cache-control" content="max-age=604800" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <style>
+        .product_view .modal-dialog{max-width: 800px; width: 100%;}
+        .pre-cost{text-decoration: line-through; color: #a5a5a5;}
+        .space-ten{padding: 10px 0;}
+    </style>
+    <title>Website title - bootstrap html template</title>
+
+    <link href="images/favicon.ico" rel="shortcut icon" type="image/x-icon">
+
+    <!-- jQuery -->
+    <script src="js/jquery-2.0.0.min.js" type="text/javascript"></script>
+
+    <!-- Bootstrap4 files-->
+    <script src="js/bootstrap.bundle.min.js" type="text/javascript"></script>
+    <link href="bootstrap.css" rel="stylesheet" type="text/css"/>
+
+    <!-- Font awesome 5 -->
+    <link href="fonts/fontawesome/css/all.min.css" type="text/css" rel="stylesheet">
+
+    <!-- plugin: fancybox  -->
+    <script src="plugins/fancybox/fancybox.min.js" type="text/javascript"></script>
+    <link href="plugins/fancybox/fancybox.min.css" type="text/css" rel="stylesheet">
+
+    <!-- custom style -->
+    <link href="ui.css" rel="stylesheet" type="text/css"/>
+    <link href="responsive.css" rel="stylesheet" media="only screen and (max-width: 1200px)" />
+
+    <!-- custom javascript -->
+    <script src="js/script.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+        /// some script
+
+        // jquery ready start
+        $(document).ready(function() {
+            // jQuery code
+
+        });
+        // jquery end
+    </script>
+
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="index.html">
+        <img id="logoimg" src="logo.png" alt="logo">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">About us</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Product Category
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="Custom_pc.html">Custom PC</a>
+                    <a class="dropdown-item" href="Work_stations.html">Work Stations</a>
+                    <a class="dropdown-item" href="The_CPU.html">Processors</a>
+                    <a class="dropdown-item" href="Graphic_Cards.html">Graphic Cards</a>
+                    <a class="dropdown-item" href="Console_accessories.html">Console & Gaming Accessories</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Exclusive Offer</a>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link disabled" href="#">Cart</a>
+            </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+    </div>
+</nav>
+<!-- ========================= SECTION CONTENT ========================= -->
+<section class="section-content padding-y">
+    <div class="container">
+
+        <div class="row">
+            <aside class="col-md-3">
+
+                <div class="card">
+                    <article class="filter-group">
+                        <header class="card-header">
+                            <a href="#" data-toggle="collapse" data-target="#collapse_1" aria-expanded="true" class="">
+                                <i class="icon-control fa fa-chevron-down"></i>
+                                <h6 class="title">Product type</h6>
+                            </a>
+                        </header>
+                        <div class="filter-content collapse show" id="collapse_1" style="">
+                            <div class="card-body">
+                                <form class="pb-3">
+                                    <div class="input-group">
+                                        <input type="text" class="form-control" placeholder="Search">
+                                        <div class="input-group-append">
+                                            <button class="btn btn-light" type="button"><i class="fa fa-search"></i></button>
+                                        </div>
+                                    </div>
+                                </form>
+
+                                <ul class="list-menu">
+                                    <li><a href="Custom_pc.html">Custom Pc  </a></li>
+                                    <li><a href="Console_accessories.html">Gaming Accessories </a></li>
+                                    <li><a href="The_CPU.html">The CPU  </a></li>
+                                    <li><a href="Graphic_Cards.html">Graphic Cards  </a></li>
+                                    <li><a href="Work_stations.html">Work Station </a></li>
+                                    <li><a href="#">Exclusive Offers</a></li>
+                                </ul>
+
+                            </div> <!-- card-body.// -->
+                        </div>
+                    </article> <!-- filter-group  .// -->
+
+
+                </div> <!-- card.// -->
+
+            </aside> <!-- col.// -->
+            <main class="col-md-9">
+                <h2 style="text-align: center">Custom PC</h2>
+                <header class="border-bottom mb-4 pb-3">
+                    <div class="form-inline">
+                        <select class="mr-2 form-control">
+                            <option>Latest items</option>
+                            <option>Trending</option>
+                            <option>Most Popular</option>
+                            <option>Cheapest</option>
+                        </select>
+                    </div>
+                </header><!-- sect-heading -->
+
+                <div class="row">
+                    <div class="col-md-4">
+                        <figure class="card card-product-grid">
+                            <div class="img-wrap">
+                                <span class="badge badge-danger"> NEW </span>
+                                <img src="https://i.pinimg.com/736x/26/bb/ac/26bbace2f3ba5e6f8d9de5214f6405bb.jpg">
+                                <a class="btn-overlay" href="#"><i class="fa fa-search-plus"></i>
+                                    <button type="button" style="width: 100%; height: 35px" class="btn btn-primary" data-toggle="modal" data-target="#product_view1">
+                                        Quick view</button></a>
+                            </div> <!-- img-wrap.// -->
+                            <figcaption class="info-wrap">
+                                <div class="fix-height">
+                                    <a href="#" class="title">Great item name goes here</a>
+                                    <div class="price-wrap mt-2">
+                                        <span class="price">$1280</span>
+                                        <del class="price-old">$1980</del>
+                                    </div> <!-- price-wrap.// -->
+                                </div>
+                                <a href="#" class="btn btn-block btn-primary">Add to cart </a>
+                            </figcaption>
+                        </figure>
+                    </div> <!-- col.// -->
+                    <div class="modal fade product_view" id="product_view">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" id="example" class="btn btn-primary">
+                                        <a style="color: white" href="Custom_pc.html">
+                                            close
+                                        </a>
+                                    </button>
+                                    <h3 class="modal-title">HTML5 is a markup language</h3>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="row">
+                                        <div class="col-md-6 product_img">
+                                            <img src="https://i.pinimg.com/736x/26/bb/ac/26bbace2f3ba5e6f8d9de5214f6405bb.jpg" style="width: 100%">
+                                        </div>
+                                        <div class="col-md-6 product_content">
+                                            <h4>Product Id: <span>51526</span></h4>
+                                            <div class="rating">
+                                                <span class="glyphicon glyphicon-star"></span>
+                                                <span class="glyphicon glyphicon-star"></span>
+                                                <span class="glyphicon glyphicon-star"></span>
+                                                <span class="glyphicon glyphicon-star"></span>
+                                                <span class="glyphicon glyphicon-star"></span>
+                                                (10 reviews)
+                                            </div>
+                                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                                            <h3 class="cost"><span class="glyphicon glyphicon-usd"></span> 75.00 <small class="pre-cost"><span class="glyphicon glyphicon-usd"></span> 60.00</small></h3>
+                                            <div class="row">
+                                                <div class="col-md-4 col-sm-6 col-xs-12">
+                                                    <select class="form-control" name="select">
+                                                        <option value="" selected="">Color</option>
+                                                        <option value="black">Black</option>
+                                                        <option value="white">White</option>
+                                                        <option value="gold">Gold</option>
+                                                        <option value="rose gold">Rose Gold</option>
+                                                    </select>
+                                                </div>
+                                                <!-- end col -->
+                                                <div class="col-md-4 col-sm-6 col-xs-12">
+                                                    <select class="form-control" name="select">
+                                                        <option value="">Capacity</option>
+                                                        <option value="">#</option>
+                                                        <option value="">#</option>
+                                                        <option value="">#comingsoon</option>
+                                                        <option value="">#</option>
+                                                    </select>
+                                                </div>
+                                                <!-- end col -->
+                                                <div class="col-md-4 col-sm-12">
+                                                    <select class="form-control" name="select">
+                                                        <option value="" selected="">QTY</option>
+                                                        <option value="">1</option>
+                                                        <option value="">2</option>
+                                                        <option value="">3</option>
+                                                    </select>
+                                                </div>
+                                                <!-- end col -->
+                                            </div>
+                                            <div class="space-ten"></div>
+                                            <div class="btn-ground">
+                                                <button type="button" class="btn btn-primary"><span class="glyphicon glyphicon-shopping-cart"></span> Add To Cart</button>
+                                                <button type="button" class="btn btn-primary"><span class="glyphicon glyphicon-heart"></span> Add To Wishlist</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <figure class="card card-product-grid">
+                            <div class="img-wrap">
+                                <img src="https://i.pinimg.com/originals/b8/71/10/b8711012ba699495ff68aae3fb3521f2.jpg">
+                                <a class="btn-overlay" href="#"><i class="fa fa-search-plus"></i>
+                                    <button type="button" style="width: 100%; height: 35px" class="btn btn-primary" data-toggle="modal" data-target="#product_view1">Quick view</button>
+                                    </a>
+                            </div> <!-- img-wrap.// -->
+                            <figcaption class="info-wrap">
+                                <div class="fix-height">
+                                    <a href="#" class="title">Product name goes here just for demo item</a>
+                                    <div class="price-wrap mt-2">
+                                        <span class="price">$1280</span>
+                                    </div> <!-- price-wrap.// -->
+                                </div>
+                                <a href="#" class="btn btn-block btn-primary">Add to cart </a>
+                            </figcaption>
+                        </figure>
+                    </div> <!-- col.// -->
+                    <div class="modal fade product_view" id="product_view1">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" id="example1" class="btn btn-primary">
+                                        <a style="color: white" href="Custom_pc.html">
+                                            close
+                                        </a>
+                                    </button>
+                                    <h3 class="modal-title">HTML5 is a markup language</h3>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="row">
+                                        <div class="col-md-6 product_img">
+                                            <img src="https://i.pinimg.com/originals/b8/71/10/b8711012ba699495ff68aae3fb3521f2.jpg" style="width: 100%">
+                                        </div>
+                                        <div class="col-md-6 product_content">
+                                            <h4>Product Id: <span>51526</span></h4>
+                                            <div class="rating">
+                                                <span class="glyphicon glyphicon-star"></span>
+                                                <span class="glyphicon glyphicon-star"></span>
+                                                <span class="glyphicon glyphicon-star"></span>
+                                                <span class="glyphicon glyphicon-star"></span>
+                                                <span class="glyphicon glyphicon-star"></span>
+                                                (10 reviews)
+                                            </div>
+                                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                                            <h3 class="cost"><span class="glyphicon glyphicon-usd"></span> 75.00 <small class="pre-cost"><span class="glyphicon glyphicon-usd"></span> 60.00</small></h3>
+                                            <div class="row">
+                                                <div class="col-md-4 col-sm-6 col-xs-12">
+                                                    <select class="form-control" name="select">
+                                                        <option value="" selected="">Color</option>
+                                                        <option value="black">Black</option>
+                                                        <option value="white">White</option>
+                                                        <option value="gold">Gold</option>
+                                                        <option value="rose gold">Rose Gold</option>
+                                                    </select>
+                                                </div>
+                                                <!-- end col -->
+                                                <div class="col-md-4 col-sm-6 col-xs-12">
+                                                    <select class="form-control" name="select">
+                                                        <option value="">Capacity</option>
+                                                        <option value="">#</option>
+                                                        <option value="">#</option>
+                                                        <option value="">#comingsoon</option>
+                                                        <option value="">#</option>
+                                                    </select>
+                                                </div>
+                                                <!-- end col -->
+                                                <div class="col-md-4 col-sm-12">
+                                                    <select class="form-control" name="select">
+                                                        <option value="" selected="">QTY</option>
+                                                        <option value="">1</option>
+                                                        <option value="">2</option>
+                                                        <option value="">3</option>
+                                                    </select>
+                                                </div>
+                                                <!-- end col -->
+                                            </div>
+                                            <div class="space-ten"></div>
+                                            <div class="btn-ground">
+                                                <button type="button" class="btn btn-primary"><span class="glyphicon glyphicon-shopping-cart"></span> Add To Cart</button>
+                                                <button type="button" class="btn btn-primary"><span class="glyphicon glyphicon-heart"></span> Add To Wishlist</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <figure class="card card-product-grid">
+                            <div class="img-wrap">
+                                <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxMSEhUSExIVFRUXFxgWFxUXGBcXFRUVFRUYFxcVFRUYHSggGBolGxUVITEhJSkrLi4uFx8zODMtNygtLisBCgoKDg0OGxAQGi0gHh0tLS0tLi0tLS0tLS0tLS8tLS0tLS0tLSstLS0tLS0tLS0uLS0tLS0rLS0tLS0tNS0rLv/AABEIALcBEwMBIgACEQEDEQH/xAAcAAABBQEBAQAAAAAAAAAAAAAEAAIDBQYBBwj/xABOEAABAwEEBgQICQkIAgMBAAABAAIDEQQFEiEGIjFBUXETYYGxJDJykaGywfAHI0JSU4KzwtEUMzRUYnSS0uEXJTVDc5OioxWDRJTxFv/EABoBAAIDAQEAAAAAAAAAAAAAAAABAwQFAgb/xAAxEQACAQMCBAUCBQUBAAAAAAAAAQIDESEEEiIxUXETIzJhgTNBBbHB0fAUJJGy4RX/2gAMAwEAAhEDEQA/APNLSNZ3I+qh7UzXPZ6oRVqGu/kfVVsboxDFy9DQrs8VmUqd3QVigs7MwrWyR5hdF30cFYWSzGoVukkUNTJop7eTjc2uQpQbtgUbISUVebKSvHWPVCdG3IKVRuzlTtBEbIwFx84bltPD+qHmeXOLdgBpT8VNFFRNO/IbjbMhtXOOfm99qOsBDXDFsrnTbRR4M8k9q7UDiU+h67dOmUDY2tax1AANw9qF0q0qZPZ3xNaRUE7R8lpd7F5rBaS3YUZBNia812Mk+zcq1bTxUJSXQs0dXJyjF9Svige+VjGNc5xZHQNFSfi27gvU7BpO2zRNY4tdI0AYWmoFPnPGVeoV5heZW695I29CwhgLGYy0Ue+sbcnu2kdWxF6J9C95bPIWimqK4Wvdua59DgHXQ9m1cU6adNX6HVSrKNSXQ3TtKbVaCWxgccgA1o4knIDrKy993nEx2KRwtMvCpEDeZFDJ2UHNQ6SWy0s+KdH0Ue1rGfm3Dc7Fn0nlElZWQ1U0aaRXlVlUx9ia8b0lmNXuqBkGiga0cGtGTR1AKCGQg1CbROwrvaGLHoujum72tayVge0ACuxwA4O9hWzg0kDm44x0jRmQ384zymcOsVC8OjmpvVtd1onLgYWyuI2GNriRywqOdGPMkhXmsI3GkulcMw6N4cGH5bfHB62nJw6suaw963c5reljIli+kZmBXc8bWHqPZVXFpb048Mi6B26clkJ/9kcjmh/MUPNZ7H+SyF0dtg4VjeZA4cCGNdUHgQo704q10dJ1pSvZ/wCC00XvEQOs0hFcLbUacaFirtIr4M0z3geMa/0XBeUMzozibGAJWOLWPEYMuDWDaYgNWpAbvyCgvK6JIqOycx3iyMIdG8fsvGR5bRvUWm2ty7k+pnKMY36Fa59VFQ1U2FJwVpwRVVRnGzcfOpK1UTmKPCRsXLuueRpKXLDCCOCfFK5pyJB99ybAMQqpmw1K5kla6O4SlfayxjBcwOO0o6w2epCnu+w1iZ77ytFct15jJVqslYsUYNMLu25sQGS8509svR2ktP6vAfO55X0Dd1iDWjJeL/DBGBb3Afq8H2ko9ipQXGi7UfAzHRDVHIJKaJmqOQ7klrpGE5ZGWtmu4cQfUWps5HR+b1GrNWzKQ8vuIxluIAHU0+djVVqx88v6eX9umH0BcFYWOHWCqLJJVw99y0d3sq4e+5WI4RWq8TMlfrKTyDrHqhNibkOSn0jHhMvNvqNTIhkOStU8lWrhWKwN13cyiWtUIGu7yj3oodacEdTZ1rDXJd6OhzRV3XoyyyMtD2l7Y3tdhFKuo4ZZmgUN/wCmsU+FzbK1shricHYcXCrGilduymxcVdTClK0h06FWorxWCHYjruZVsg4seP8Arcsw6/37mRjscT6XU9ChN9z7pMPkhjfS0A+lVK2thKLik8lylopqSk2sM0+k0J/KpWgHLCKAcGNVb4ubiG+UQ2vKqoJrVI/x5HO44nOPeUyGzvf4jS7qa0u7gq8NW4xSS5FiemjJuUmbe79LBC3onlssR2xOBc3rLSPEPWCFW3rfVkc6sMczQc8L8BoeAcDUjmAqSa7J4245IJmt+c6N7W+ciiAjNTShNTQAba9XFJ6upfocw0lF5Wfn9i8/82wf5RdzfQeYN9qTdJCPFs9nHWWyPPmfIW+hVodGah7MNPmEhwp+y7IqGaNozDqjgRQ+io7ahRyr1Jc5FiNGmuUS3/8A6q1DxZGx/wCnFDGf4mMB9K7ZNJbRjDnzSy0rlJLI4UIplUmhz2gKhLgprHAZHBjT42+hyoK7lE23zJErciS2W58r3PeQXEk5CgzJNB1ZlQOci7xu7ocOuHE1yAIpSnHmgkhl5dRrH2u+6rS77zls5PRu1XeMxwDo3jg9hyPPaNxCqroPxf1j3NRJQnYGk1Zl62Wy2jeLLL815rZ3H9mU5xcn5ftIO8LtkhOGRhbvFdhG4g7COsKpctZdbybqe05hloZhB+TjbIXBvCpArRaOm1EpvbLJmarTxprfHHsZ4NScMk8hNcclcmsFanLJPY26vaUZE3NBWN2r2lENlzUbjwIljJeIzd3TEOgj5e0rR3QACFnLof4NGer7xRsNvwkc1nTzc0o4semQZtC8O+GMeHv/AHeD15ivXbjvEOaASvHvhZnD7a9w+hs49EjvvKGn613OqnofYzEbMhyHckpoxkOQ7kltpHnHLIJeXjO5H1CmwZhvks9RqmvJlTzy/wCBUdkFQPJb6jVSqPz/AINWgv7dFpdjNce+5a67I9Ye+5Zq6o9dvvuK2F2x6w99yUpgqd2YPSgeFTeU31GqKLYOSJ0sFLXN5TfUah4swOQWjReEZ+ow/krm+O7yj3osZlDNGu7yj3ooCp96LqAVOYHff5h3NvrLLgrUX4PiHc2+sEd8GuiAvKXo3OwRR4pJX0FcIoGsruJJOe4Ncsr8Q+r8Gn+H/Sff9jEg9Q9KQd1Aef2rfaRWa6mOdHZbLNI1tR0zrQWPfTa6NmAtpwqM+AVPa9HG/kxtVnf00BcAcQwywvANGSgVGdcnDI03bFnyntfFi5oQi5+nIForf4sVpbOYIpwKgskFcjvYTk143OoVpbTpSLS8u/8AJz2cE+I6ztOGvB0BzHZVYTo9nFG3ddMkx1ACQMVCQNUGlc+td3SWSrW0sKzTfNeyf5pmvkdGG1bf7yeBNsb6MKVit4ixPF5OkNK16Kd/VUVaK+dV122XFIfjBBhOF4DQ7MEtLml3cm31Y2Rxl4tTnvYat1htJ24d2RK68Rcio9Km9vJdLR/WL/MuLdfQliLDZpLY5+qySaJkLGkgisZBxudw1hsWHtN0SszLCM6UxNLttPFBruO7ctDYJXvijkxAEP6QmnjFuJoqXAioAGedKKG9rO+NrJA9xDy6jCK4TqjJ22hrSiilUzYVCK08tkbK79+fxZLHRJGaks5aNYUNchv6+zZ51a6KtBnOKhGBxzFQM25oOV2J7hXIAivk5uOXE1KK0ZPxrvIPe1dGmix0mYRAwEgnpM6Cg8V1MlmVptKD8U3/AFBlw1HLMhCGXFznUPlHuYi3IO6DqHme5iKcUwI3Fa65D/dc/wC8RepIsg5a+4T/AHVP+8xepIrWk+p/OqKmtV6X86Moy1NdsT6JE5LWlyMumuJDrEzV7Snu8ZOsDdXtK7L4yjvwomUfMZvLmb4HFy+8UJbXUpzVhco8Ch8n7xQN6bBz9hWO58TNnw+FP2RdXReWEDNebaVWnpJ3n9mEf9ZWibasO9ZG3msjjxbD9mVzD6iFV+mwhmwch3JJzW5DkktxNHmGncZeraGvX9wqC7hqjs9UKfSN2FpPv4hUF0ZsHZ6rVl1JeZc3qULUkjQXS3Xb77lsbubrD33LJ3UBjb77lrrv8Ye+5QzqFiFM8+0wHhk/lN+zahodg5DuRelw8Mn8pv2bVBE2oHILX08+FdjG1VN7n3ZWNGu/yj3ovae3sUDG0e/yj3ovDU7N+xS05IiqRdyvvsfEP5t9YLT/AAfXgLLdFtmORmtEVmrlsLASORD3V5rN322kEg62+uFZ6P2Uz3DbGN2xWuKYjeA5gjr3rK/EH5i+PzNPQLyn3f6GantZxUqA0nJwoTQ7+pWei9oLJZLG0/F2qJ0WezGAXwu5h7QPrFZl7aK10ba51rs1Dn0sXYGvqfQCqNd7qbUjR06amtpV0BeBsGFv2bStRY9H5C2Po3MfIbM20hjXFrmxuka1wcSABTGCc/FBKzVrcC/Ewgg5gAEUHA1HdVeiaGQiOK0kvwYuks7pSC7o4o7FI8PoM6A0NB9GOC6tuHBZsZzSK5WwsjJla6RwL5WxnKOuzIipbTbQZZlUtngzfmAQCW12Et686HZ6FaaTWaLpB0VpM0laEdE6NrGgU8Yk13bPncVSy2vDk08KncaCmQ4Ze+9RTSycTd5OxvdFoS+GxE1Je6UA64qWykUBz4t8Ubwq3Sppa2KozY+ZxGW1grQ/WACvNDqmO5+qW1U/+xEs/pc8OqzeZpWmm5pmxEnsjKjmuOP8+xRrQvWpv3f+rM7abKY2AEgl2FtRwJLnV66tAPNHXFDhe4HbQjzNadnao72tEWMFgGENLgRXNxLWkgHra5TXLMJbRWmGrXGm3ZgHsUpbXMfpN+bGXyx6rlmlptJ/zdP2x3FZlCGy1uo6p5n7iLJQV2HVPb91FEpgNeVsdHf8LtH7zH9m9Yt5Wz0ZP912j95i+yep9M7TK+pV4FRg3pO2J9N/pXHHJaUp4KUKeSW726naV2bxl27xqdp9i5aDrKPfwomUOJnoVyN8Ch8n7xVde4o3t9hVlcX6FD5P3iq++vF7fYVh+J5j7m24eWuyM9an0CoZ83f+uH1HK3trlRWaYPc6m4RN80ZqrMXlFOpyZctZkElOGJLS3mQ6RXX+MiDsr9wqG5vE7R6rVPpDsPZ6pQ9wH4sdnqtWdOWbmtCOLGluka7ffcthd41h77lkrpGu333LY3eNYe+5U6lTJcp08HnmlzfDJ/Kb9m1QwjVFMsh3I3S9nhc/lN+zaoIWDCKcB3LYoT4F2RkV6fE+7KiNuu+vznd6Mpnlx2e+1CRj4x/lO70aRnlx7VNCZDKmV9+jweTm3L64V18D97wxvlslpIbBbGuhc4mgD8OpU7qhzhXiWqov1vg0nNnrtWVjs78iPleKN5pvG7cqWr4p/Bc0vDE0Om2jklhlMMgyqSySmrI3c5p402jcj9FLqMdmmt76sDWPZBUUL5pGlmJldrWNLiTsrTgVRxaVW2NgjFpc5lAQ12GRoqKgNDwcO3YNiFtt9Wi0VM0735UAJ1QOAaMgOoLPnTqSjtbXu/b/AKXqdSEJXyRdFQMJGRxAZg5ADhs2r1OUw2WISF2L8rsoBhJawvcHhj5GPdqhzWSS6m1wfTKlV5E+tFp7juy1Xj0MIe57WgtGN9WxMLxioHGtAKZNqdinyndEakDX+6PpHCLEGuAe5zgA4NpTDQEipdUUrn2qixEnLr81FptIbofHLLGRTCWtJ3Do3FtfJIOIclBbNFbWxge6ENZQAPxNwuqaAjOrqmg2IOebbLm770kgu+yysGtC6UtJDTgxTirhmSfk5OA7QsvetukMuIOOMFxLhtL5MneggbNpcrWy2lxZBYI6OkdJ0eJtHDFLKMPyQcjQ0J212AZ0Mljc2R7RU4Xubiplk7DjJFRw86ZyQTuBJAFcIa0HdRooct9TmrLRyUtnJoBRhFBs+T+FVXWtuEhtACAK04gUVjc8BEgcd7SPVKADtJH1jr+2O4rNrQX4SYsxTWGXnWfQBY3acj7/ADUUSg7vOR997UVVADHrZ6Mf4Xaf3qL7Jyxb1tNFv8KtP71H9i5S0XxEdVXiVdDSvXtTXHLzp1D77Exwy8/JW5SwQxhkKu7xO0ptodrdi7do1O0ps+HGQSRlwrmo93CS7cnotxHwKHyfaVXX2dXt9iPuMeBQ+T7Sqq/Dl2+wrA3+a+7Nvb5a7IzFueqywtGM0FNWMnmYyjLwcg7qNZHeTH9mtGmzOqo1AYkpwF1W9xQ8Mzekuw9nqlD6Ofmh2eq1E6SjVPZ3FCaMn4ocx6rVSnLFy/GPFY1t0jXb77lsrvGY99yx90+O1bGwbR77lm1p5NGnHBhNLm+Fz+Uz7NqHibqinAIzS0eFTc2fZtQ0Q1RTgFs0J8C7IzKtPjfcpI/zj/Kd3o6meX9UGB8a+vzjn2o4DPLzqdTIXTAL/wD0aXmz7Rqz1r/MQ/W7/fzLR6Q/o0p62faNWbtn6PD9fv8AfzKKrK7HGNjlkEeHXZU50dioNlQK1AqnGzxEauGu6sjRn9ZyFsNMQq1rmjMhxIB2N403j0q5iv2JhJFmYHb6Ofsod+I8VFc6Kh93O3Oj/wB2P8VPYopGU+NLMx4kzQaVFaUdt/BaC5A22TOBfJCwR4mta41cQQPGIO9w3bM+aOjEk1Hh+q10oEhY97qRyYTiI2jJxFBWgdsRkdi4dfDbTHHA2x9O+NmBswlk/KCAKkno9uQqQajfRY22wSZ0lyNdUmhPUSKA7VpZLgtNnY4m0RtjjbrAiVgkJ8VhFQCauoDUEc6LOWa0tkkAmi6apwg4nNeXEgAl+e8englkCGyTgB4kfhZqksio3GWYsNaD9o+fbkiLZbAAARgxCoYPkMptI4nYBuGZzJVjelghszmtnu2aKubcUrqGvBwNNx61WuttlDnnoZHY24QHSE4K8HU1u3hRAWArTCyR1IsNTQNaNp2Z1cduR2nerCyasjWnbhrtByoBXLkqWeaPGSyKjcTi0FziQ0+K0kUqQN+9F3O34wbPFOyvprsJ6kxFxfEYMJJrUEUA7dqy6017O+Id5TVmSgA2wOyd772oknJC2DYffeEQCgDj1t9E/wDCrT+9x/YlYdy3OiI/uq0/vcf2C7g7MTVyrKZJSimdXZ6FFKMlJKZ1GBPdnidpTLSBi45exSXafi+096ZaKYuz2KPeSbD0K4/0KHyR3lVV/DV7fYVbXKfA4fIHtVRpA7VHP2LAU/Nfdmxby12Mdbic0Lcecr+TPswi7adqE0cPxsnJvqBatN4MuquJG1ouJ1ElNvIthmdJmap7O5A6MH4rtHqtRmksuq76qr9GT8X2/daoZegmt5hs7pOu3mthYHZhYq6367ea2FgfrBZFfmaVNYMjpb+lTc2fZtUMEeq3kFPpZ+ky82fZtQ8UuqOS1qEvLj2RSqR4mVIjJlf5R70cISDl51Xi0/Gv8oo8Wkg7vYrKkQbADSZp/Jpa8WfaNWct8DhZrO4jVd0lDydQrQ6TTl0En1fXCzNpkJs0Q3Av9J/p6EN3IpxsxWBkbmEGGV765Ob4tKDI8N/nTrTYHx1LoXtBBpiLSNm0cVJc0eJjvCWw57HAUOQzxE5Lltn1Sw2kuFdgIpWnUEjgHZa9ZuvIzCKAh3igVFG0aSBmdnEqaK2NaABPM0DYG0oK7aCgptKqXU3enmfZRJhOwb+SALSS8Kgt6eYtdQuDg2hI2EtxmtKDPqU5mjY2nTGQcAzV/wCQBBzrv2KjwldJQBexzm0AtktMrqGoDw54qdrm4pNU5UqBw4oa84WxGuAOByBqQTzaMh2FDXcaOxejtB9imva8RK0N6MMwmta1JNOSAILVCGAEUB6jXv5qS5nfG/VPsUNttYeBQEU/p+Cdc5+NHIoAt73lIiIyoSFQEq5vh3xfaFSIANsO/l7QiAhrDv5e0ImiAGuW20SmZ/42eMu13Wprg3fhbCBXhtd6CsS5W9xykRuAPy9n1QmjqKuy5MG5B2lmFdNpccqqG0SZZmqTZOohN3HU7T3plp8bs9i5dslYxzPem2g63vwXFzu2D0a6HeBw+Q3uVJf78hz9itLsf4JD5De5UN/SZDn7FhQV6r7s1HimuxmbY5QaN/nZOTfUCdanJmjL6SSch6oWxD0MyqnrRu6JJdIkldne0yGkh1T9XvQOj7tQ+V90IzSM6p+r6yr7hdqHyvYF1L0HD+qa27X6zea2F3yawWFu9+s3mFrrvkzB3LL1ETRpFJpUfCZfqeo1BwnVHJaG/LgdM4zROBcQKsdkDhAGq7ccth86yU8b43YXBzHD5JyP9QrenqRcEk8ohqQak2R2u7iXF7Dmcy07Ceo7lEyctOFwoeB980ZHbdxyRUkTXijgCPfYdytqRFsT5FLfsmKCTs9YLNOkDomMrmC6tcgATvK0l/2MsikLTq5ZHaNYb96y1iIxUIqN440XcXcqVlaQrPK1g1ow4mhBNDl2oq0Xo7CY+jaBXdQ59Thz4oxrYPoqcimmzQH5w8x9i6ISiJqc/QjLJZw4Uwg8S7E2ldlKI91gi3PI5gexKK72tBwzCp+cCgCNt2RE5uc3kA7zAub3q1ku+6446vfbXu6hBG2tOGufSgRY3/SRnzhctF3SubSsf8XsogCrtVoj2RNe0VyxODnU4Eta3uQxeCSXVz4I99ySj5vnXDc0u5te0FAAMkYpUGo7O6qKuoUkHIpPuyUf5Z8y7BFIxwdgPmKADL0dWOvWFUI+32guaBgIzzJBHeSgEAF2HaeXtCMKCsO3s/BGuQBG5WF1+I7yvYEA5GXfC5zTh2VzPDJJklP1Bb7RQLjLO9+Z1R6fMi7NZGtz2nifYNykmmA9+9cORbUOooYg1oaNnvtUE3je/BcfKXdQ7/xV7dWisstHSfFM6/zhHU35Pb5lFOpGCvJncYOWEi9sT/BIfIb6qoL6fl2rRWyBrI2xxkkMAAqdwFNvFZO+H7AeKzaMbzv7l2piNiktLtqbo7+cfyHc1NtBS0fdrv8Af5q1I+lmXP1o3RKSiL0lHksWRlL8lBac/m+sgbi8Q5gZ7zTcFpBoRD9LN/E3+VSM0Dg+ln/iZ/KrHh4sUfF4txBZZWNocba8wrqzX5H8p7R14ggG/B9Zz/nT/wATf5VKPg5s/wBPaP4mfyqCWlUubLEdY19i8ivyEZ9PH/G38U+13zY5m4JpInDdrCo6wQag8lQ/2b2f6efzs/lS/s2s/wCsT+dn8qh/86N7qTOnr3ysgK9bNAyrobTHI35pcMY5HY70Hmg4rwDdjxTgrj+zOz/rE3/H8F3+y+z/AKxL5mK3Ci0rN3IXqn9kUF9Xg2SF7QRUgUH1gs1YrI4uGbd/HhyW4vn4PYbPBJO2aRxjbiAIbQ7s6c1krAdYdqkUbEM6m93YY2wH5w8xKeLv/b/4/wBUQ16cHIscXIBYG7y70D2FJ9gZ8ku7adwRIK7VMLgDrA7cQfQfSoXxObk4EehWzSpGvI5cN3mSDBRvbVp4e+5Rtj5fw/8A4ruaCN21oHW3V9Gz0Jj7Cwto12tirV1Rq08XIUrXOqB2KmrhsI7Kj2rpneKEPO75RptG45HJEy2ORgNWmnEZjzhDTAkAU2dVN42negLEd63nia6MnPLdTeDtVMibfFSR2Y3b+oIdMQXd/jdiNKCu7xuxH0QBGQrC7LQ1jSCQDirtA3BCSREUqtXoZodZ7dE+SYyBzJMADHACmBrs6g51cUWvg6jNxd0Uz7cDlUDtH4p1kDHuo6VkY3udn5mt2nzLcf2YWEfSn6/9F3+zSwfMk/3CuXSxzJP6h9AO67bd9nFWyB7/AJ7ga/Vyo3sU9o0ohd/mj0qdvwcWD6J/bI/2FPHwdXf9C7/ck/mVV6CLd3JsnjrpJWSRR2nSCLc8FVNtt7JPGcDw6ltB8Ht3/QH/AHJf51w6A3eP/j/9kp++u46aMeQpayb+yPM7S3gahRXPIGucTl7tXpztC7CNlmb53nvcoJNE7H+rM9P4qZQxYruq27lAbzj+eEldHReyfq7PT+KSPCJP6l9A9qmjQrJetExydamKoUxTNCHY8IljgkxjXBNxKaoXRRNCZD0icJVJ0IKY6xnc5dCK/SJjpbLNGwYnOYQ0ZVJ4Z5Lyqe57VEBWzzB1doaXNpv8UHvXsLrI8cCgLXNMzZET17fQEmkwTPJTaZGmjhQ8HCh9ie28TvaO5XmmLZpyxzmmrKgZEZOpv37AsrJZpQPFPnH4rho6LNt5De0+gqVt4t4kdn4KmMUo+SfQe5QuncNrfQQkM0jbYw/LHd3qR9raBXbyIWYbahwUgmagDRwW1rjSh457D5ijPyuM/wCWK9WMLKsk3g09CmZaXDY89pr3oA07bVGOI5P/AKJtrbG8CrSdmbgK0y2OGaoGW6QbweYHsUjLwOLE4An3zSsAr0ullXObibs627h75qpfYHjZR3I5+Yq5tdvxYo6Z5GoJIptFKgIVtUDuBWJpDqEEZbxRHEpsrs29q6xpcQ1oJJ2AZpiO4uK9M+Cp3g03+ufso1SaO6Ixmj7S8HeImu9dw7h51vrOWsaGsaGtAoA0AADqAXaRy2WGJcxIL8oS6dMQaXLmNCCZOEiTOkE4lG8puNNL1wMZIhJQiXyIOaRMCMhJRGRJMRTskKnjegmvUzXpiLGORFMkVXG9EsegA4SKRsqCEie2RNCYc2VPbKgWvUrXpiuGiRc6VD41zGkwJngO2gIaW7YX7Y2HsClEicHJWGVc2jFmd8inIkKutGhcR8V7m86FabEuVRYDD2nQM7nMdzCq7RoNIP8ALB8k0XppTcPWlYLnkNo0XkbtZIPSq+W6HN3kc2r20tKhkszXbWtPMBFh3PEX2GQbx3LjYpAcwab817FLc0DtsLewU7kFLovAdjS3tSsO55cwbwUpLWW5UBXoNp0LjOw+cBDjQwNNQGk9dfaiwXMZGHSUJbhp112q6uiyurRozO3+pWks+i5+U0AdRzKt7NdTWCjW0TSFcFuyx4M3Gp9AVxE+uwKNtnoiGA0TEcoU8c00lNJTAm6Si6JkMXJpekxoM6ZNMqFxrheuDondKhZpUi9CzuTA6ZkkIXrqBFW2RTRlcSXTEExuRDJFxJAEgkUjXLiS6EyVj1K16SSDkeXpYkkkMaHAqTEQkkkMQeV3pEkkAc6VLpikkkA4SrrZEkkAdTwyu9JJIZ3owpBEEkkARSmhomFySSAGFyQKSSYDHFRF3WkkmIbUphcupJMaOY00vSSXJ0NL0NM5JJIAcuSSSTEf/9k=">
+                                <a class="btn-overlay" href="#"><i class="fa fa-search-plus"></i>
+                                    <button type="button" style="width: 100%; height: 35px" class="btn btn-primary" data-toggle="modal" data-target="#product_view2">Quick view</button></a>
+                            </div> <!-- img-wrap.// -->
+                            <figcaption class="info-wrap">
+                                <div class="fix-height">
+                                    <a href="#" class="title">Product name goes here just for demo item</a>
+                                    <div class="price-wrap mt-2">
+                                        <span class="price">$1280</span>
+                                    </div> <!-- price-wrap.// -->
+                                </div>
+                                <a href="#" class="btn btn-block btn-primary">Add to cart </a>
+                            </figcaption>
+                        </figure>
+                    </div> <!-- col.// -->
+                    <div class="modal fade product_view" id="product_view2">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" id="example2" class="btn btn-primary">
+                                        <a style="color: white" href="Custom_pc.html">
+                                            close
+                                        </a>
+                                    </button>
+                                    <h3 class="modal-title">HTML5 is a markup language</h3>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="row">
+                                        <div class="col-md-6 product_img">
+                                            <img src="data:image/jpeg;base64,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" style="width: 100%">
+                                        </div>
+                                        <div class="col-md-6 product_content">
+                                            <h4>Product Id: <span>51526</span></h4>
+                                            <div class="rating">
+                                                <span class="glyphicon glyphicon-star"></span>
+                                                <span class="glyphicon glyphicon-star"></span>
+                                                <span class="glyphicon glyphicon-star"></span>
+                                                <span class="glyphicon glyphicon-star"></span>
+                                                <span class="glyphicon glyphicon-star"></span>
+                                                (10 reviews)
+                                            </div>
+                                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                                            <h3 class="cost"><span class="glyphicon glyphicon-usd"></span> 75.00 <small class="pre-cost"><span class="glyphicon glyphicon-usd"></span> 60.00</small></h3>
+                                            <div class="row">
+                                                <div class="col-md-4 col-sm-6 col-xs-12">
+                                                    <select class="form-control" name="select">
+                                                        <option value="" selected="">Color</option>
+                                                        <option value="black">Black</option>
+                                                        <option value="white">White</option>
+                                                        <option value="gold">Gold</option>
+                                                        <option value="rose gold">Rose Gold</option>
+                                                    </select>
+                                                </div>
+                                                <!-- end col -->
+                                                <div class="col-md-4 col-sm-6 col-xs-12">
+                                                    <select class="form-control" name="select">
+                                                        <option value="">Capacity</option>
+                                                        <option value="">#</option>
+                                                        <option value="">#</option>
+                                                        <option value="">#comingsoon</option>
+                                                        <option value="">#</option>
+                                                    </select>
+                                                </div>
+                                                <!-- end col -->
+                                                <div class="col-md-4 col-sm-12">
+                                                    <select class="form-control" name="select">
+                                                        <option value="" selected="">QTY</option>
+                                                        <option value="">1</option>
+                                                        <option value="">2</option>
+                                                        <option value="">3</option>
+                                                    </select>
+                                                </div>
+                                                <!-- end col -->
+                                            </div>
+                                            <div class="space-ten"></div>
+                                            <div class="btn-ground">
+                                                <button type="button" class="btn btn-primary"><span class="glyphicon glyphicon-shopping-cart"></span> Add To Cart</button>
+                                                <button type="button" class="btn btn-primary"><span class="glyphicon glyphicon-heart"></span> Add To Wishlist</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <figure class="card card-product-grid">
+                            <div class="img-wrap">
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRji_PszwsGz_3ScaNm2ARAKfdMUUZGAQIvUQ&usqp=CAU">
+                                <a class="btn-overlay" href="#"><i class="fa fa-search-plus"></i>
+                                    <button type="button" style="width: 100%; height: 35px" class="btn btn-primary" data-toggle="modal" data-target="#product_view3">
+                                        Quick view</button></a>
+                            </div> <!-- img-wrap.// -->
+                            <figcaption class="info-wrap">
+                                <div class="fix-height">
+                                    <a href="#" class="title">Product name goes here just for demo item</a>
+                                    <div class="price-wrap mt-2">
+                                        <span class="price">$1280</span>
+                                    </div> <!-- price-wrap.// -->
+                                </div>
+                                <a href="#" class="btn btn-block btn-primary">Add to cart </a>
+                            </figcaption>
+                        </figure>
+                    </div> <!-- col.// -->
+                    <div class="modal fade product_view" id="product_view3">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" id="example3" class="btn btn-primary">
+                                        <a style="color: white" href="Custom_pc.html">
+                                            close
+                                        </a>
+                                    </button>
+                                    <h3 class="modal-title">HTML5 is a markup language</h3>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="row">
+                                        <div class="col-md-6 product_img">
+                                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRji_PszwsGz_3ScaNm2ARAKfdMUUZGAQIvUQ&usqp=CAU" style="width: 100%">
+                                        </div>
+                                        <div class="col-md-6 product_content">
+                                            <h4>Product Id: <span>51526</span></h4>
+                                            <div class="rating">
+                                                <span class="glyphicon glyphicon-star"></span>
+                                                <span class="glyphicon glyphicon-star"></span>
+                                                <span class="glyphicon glyphicon-star"></span>
+                                                <span class="glyphicon glyphicon-star"></span>
+                                                <span class="glyphicon glyphicon-star"></span>
+                                                (10 reviews)
+                                            </div>
+                                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                                            <h3 class="cost"><span class="glyphicon glyphicon-usd"></span> 75.00 <small class="pre-cost"><span class="glyphicon glyphicon-usd"></span> 60.00</small></h3>
+                                            <div class="row">
+                                                <div class="col-md-4 col-sm-6 col-xs-12">
+                                                    <select class="form-control" name="select">
+                                                        <option value="" selected="">Color</option>
+                                                        <option value="black">Black</option>
+                                                        <option value="white">White</option>
+                                                        <option value="gold">Gold</option>
+                                                        <option value="rose gold">Rose Gold</option>
+                                                    </select>
+                                                </div>
+                                                <!-- end col -->
+                                                <div class="col-md-4 col-sm-6 col-xs-12">
+                                                    <select class="form-control" name="select">
+                                                        <option value="">Capacity</option>
+                                                        <option value="">#</option>
+                                                        <option value="">#</option>
+                                                        <option value="">#comingsoon</option>
+                                                        <option value="">#</option>
+                                                    </select>
+                                                </div>
+                                                <!-- end col -->
+                                                <div class="col-md-4 col-sm-12">
+                                                    <select class="form-control" name="select">
+                                                        <option value="" selected="">QTY</option>
+                                                        <option value="">1</option>
+                                                        <option value="">2</option>
+                                                        <option value="">3</option>
+                                                    </select>
+                                                </div>
+                                                <!-- end col -->
+                                            </div>
+                                            <div class="space-ten"></div>
+                                            <div class="btn-ground">
+                                                <button type="button" class="btn btn-primary"><span class="glyphicon glyphicon-shopping-cart"></span> Add To Cart</button>
+                                                <button type="button" class="btn btn-primary"><span class="glyphicon glyphicon-heart"></span> Add To Wishlist</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <figure class="card card-product-grid">
+                            <div class="img-wrap">
+                                <img src="https://i1.wp.com/jabitpc.com/wp-content/uploads/2019/02/JAB-IT-PC-5.jpg?fit=1953%2C1969&ssl=1">
+                                <a class="btn-overlay" href="#"><i class="fa fa-search-plus"></i>
+                                    <button type="button" style="width: 100%; height: 35px" class="btn btn-primary" data-toggle="modal" data-target="#product_view4">
+                                        Quick view</button></a>
+                            </div> <!-- img-wrap.// -->
+                            <figcaption class="info-wrap">
+                                <div class="fix-height">
+                                    <a href="#" class="title">Product name goes here just for demo item</a>
+                                    <div class="price-wrap mt-2">
+                                        <span class="price">$1280</span>
+                                    </div> <!-- price-wrap.// -->
+                                </div>
+                                <a href="#" class="btn btn-block btn-primary">Add to cart </a>
+                            </figcaption>
+                        </figure>
+                    </div> <!-- col.// -->
+                    <div class="modal fade product_view" id="product_view4">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" id="example4" class="btn btn-primary">
+                                        <a style="color: white" href="Custom_pc.html">
+                                            close
+                                        </a>
+                                    </button>
+                                    <h3 class="modal-title">HTML5 is a markup language</h3>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="row">
+                                        <div class="col-md-6 product_img">
+                                            <img src="https://i1.wp.com/jabitpc.com/wp-content/uploads/2019/02/JAB-IT-PC-5.jpg?fit=1953%2C1969&ssl=1" style="width: 100%">
+                                        </div>
+                                        <div class="col-md-6 product_content">
+                                            <h4>Product Id: <span>51526</span></h4>
+                                            <div class="rating">
+                                                <span class="glyphicon glyphicon-star"></span>
+                                                <span class="glyphicon glyphicon-star"></span>
+                                                <span class="glyphicon glyphicon-star"></span>
+                                                <span class="glyphicon glyphicon-star"></span>
+                                                <span class="glyphicon glyphicon-star"></span>
+                                                (10 reviews)
+                                            </div>
+                                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                                            <h3 class="cost"><span class="glyphicon glyphicon-usd"></span> 75.00 <small class="pre-cost"><span class="glyphicon glyphicon-usd"></span> 60.00</small></h3>
+                                            <div class="row">
+                                                <div class="col-md-4 col-sm-6 col-xs-12">
+                                                    <select class="form-control" name="select">
+                                                        <option value="" selected="">Color</option>
+                                                        <option value="black">Black</option>
+                                                        <option value="white">White</option>
+                                                        <option value="gold">Gold</option>
+                                                        <option value="rose gold">Rose Gold</option>
+                                                    </select>
+                                                </div>
+                                                <!-- end col -->
+                                                <div class="col-md-4 col-sm-6 col-xs-12">
+                                                    <select class="form-control" name="select">
+                                                        <option value="">Capacity</option>
+                                                        <option value="">#</option>
+                                                        <option value="">#</option>
+                                                        <option value="">#comingsoon</option>
+                                                        <option value="">#</option>
+                                                    </select>
+                                                </div>
+                                                <!-- end col -->
+                                                <div class="col-md-4 col-sm-12">
+                                                    <select class="form-control" name="select">
+                                                        <option value="" selected="">QTY</option>
+                                                        <option value="">1</option>
+                                                        <option value="">2</option>
+                                                        <option value="">3</option>
+                                                    </select>
+                                                </div>
+                                                <!-- end col -->
+                                            </div>
+                                            <div class="space-ten"></div>
+                                            <div class="btn-ground">
+                                                <button type="button" class="btn btn-primary"><span class="glyphicon glyphicon-shopping-cart"></span> Add To Cart</button>
+                                                <button type="button" class="btn btn-primary"><span class="glyphicon glyphicon-heart"></span> Add To Wishlist</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <figure class="card card-product-grid">
+                            <div class="img-wrap">
+                                <img src="https://images.squarespace-cdn.com/content/v1/5ee90c619bc5bc596b75b4db/1593099266838-402C6HL78YQ3WZKVW96X/ke17ZwdGBToddI8pDm48kAVcgAgmEG8_hxDWTR-_TS4UqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYxCRW4BPu10St3TBAUQYVKc2fgu9IHkZg8tA3-LhGSrmm191eo4WmtonfXFUcScNCk9KdHXGBa1woO8QjagDIRl/Custom+Rig.jpg">
+                                <a class="btn-overlay" href="#"><i class="fa fa-search-plus"></i>
+                                    <button type="button" style="width: 100%; height: 35px" class="btn btn-primary" data-toggle="modal" data-target="#product_view5">
+                                        Quick view</button></a>
+                            </div> <!-- img-wrap.// -->
+                            <figcaption class="info-wrap">
+                                <div class="fix-height">
+                                    <a href="#" class="title">Product name goes here just for demo item</a>
+                                    <div class="price-wrap mt-2">
+                                        <span class="price">$1280</span>
+                                    </div> <!-- price-wrap.// -->
+                                </div>
+                                <a href="#" class="btn btn-block btn-primary">Add to cart </a>
+                            </figcaption>
+                        </figure>
+                    </div> <!-- col.// -->
+                    <div class="modal fade product_view" id="product_view5">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" id="example5" class="btn btn-primary">
+                                        <a style="color: white" href="Custom_pc.html">
+                                            close
+                                        </a>
+                                    </button>
+                                    <h3 class="modal-title">HTML5 is a markup language</h3>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="row">
+                                        <div class="col-md-6 product_img">
+                                            <img src="https://images.squarespace-cdn.com/content/v1/5ee90c619bc5bc596b75b4db/1593099266838-402C6HL78YQ3WZKVW96X/ke17ZwdGBToddI8pDm48kAVcgAgmEG8_hxDWTR-_TS4UqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYxCRW4BPu10St3TBAUQYVKc2fgu9IHkZg8tA3-LhGSrmm191eo4WmtonfXFUcScNCk9KdHXGBa1woO8QjagDIRl/Custom+Rig.jpg" style="width: 100%">
+                                        </div>
+                                        <div class="col-md-6 product_content">
+                                            <h4>Product Id: <span>51526</span></h4>
+                                            <div class="rating">
+                                                <span class="glyphicon glyphicon-star"></span>
+                                                <span class="glyphicon glyphicon-star"></span>
+                                                <span class="glyphicon glyphicon-star"></span>
+                                                <span class="glyphicon glyphicon-star"></span>
+                                                <span class="glyphicon glyphicon-star"></span>
+                                                (10 reviews)
+                                            </div>
+                                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                                            <h3 class="cost"><span class="glyphicon glyphicon-usd"></span> 75.00 <small class="pre-cost"><span class="glyphicon glyphicon-usd"></span> 60.00</small></h3>
+                                            <div class="row">
+                                                <div class="col-md-4 col-sm-6 col-xs-12">
+                                                    <select class="form-control" name="select">
+                                                        <option value="" selected="">Color</option>
+                                                        <option value="black">Black</option>
+                                                        <option value="white">White</option>
+                                                        <option value="gold">Gold</option>
+                                                        <option value="rose gold">Rose Gold</option>
+                                                    </select>
+                                                </div>
+                                                <!-- end col -->
+                                                <div class="col-md-4 col-sm-6 col-xs-12">
+                                                    <select class="form-control" name="select">
+                                                        <option value="">Capacity</option>
+                                                        <option value="">#</option>
+                                                        <option value="">#</option>
+                                                        <option value="">#comingsoon</option>
+                                                        <option value="">#</option>
+                                                    </select>
+                                                </div>
+                                                <!-- end col -->
+                                                <div class="col-md-4 col-sm-12">
+                                                    <select class="form-control" name="select">
+                                                        <option value="" selected="">QTY</option>
+                                                        <option value="">1</option>
+                                                        <option value="">2</option>
+                                                        <option value="">3</option>
+                                                    </select>
+                                                </div>
+                                                <!-- end col -->
+                                            </div>
+                                            <div class="space-ten"></div>
+                                            <div class="btn-ground">
+                                                <button type="button" class="btn btn-primary"><span class="glyphicon glyphicon-shopping-cart"></span> Add To Cart</button>
+                                                <button type="button" class="btn btn-primary"><span class="glyphicon glyphicon-heart"></span> Add To Wishlist</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <figure class="card card-product-grid">
+                            <div class="img-wrap">
+                                <img src="https://www.extremetech.com/wp-content/uploads/2019/07/big-o-main.jpg">
+                                <a class="btn-overlay" href="#"><i class="fa fa-search-plus"></i>
+                                    <button type="button" style="width: 100%; height: 35px" class="btn btn-primary" data-toggle="modal" data-target="#product_view6">
+                                        Quick view</button></a>
+                            </div> <!-- img-wrap.// -->
+                            <figcaption class="info-wrap">
+                                <div class="fix-height">
+                                    <a href="#" class="title">Product name goes here just for demo item</a>
+                                    <div class="price-wrap mt-2">
+                                        <span class="price">$1280</span>
+                                    </div> <!-- price-wrap.// -->
+                                </div>
+                                <a href="#" class="btn btn-block btn-primary">Add to cart </a>
+                            </figcaption>
+                        </figure>
+                    </div> <!-- col.// -->
+                    <div class="modal fade product_view" id="product_view6">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" id="example6" class="btn btn-primary">
+                                        <a style="color: white" href="Custom_pc.html">
+                                            close
+                                        </a>
+                                    </button>
+                                    <h3 class="modal-title">HTML5 is a markup language</h3>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="row">
+                                        <div class="col-md-6 product_img">
+                                            <img src="https://www.extremetech.com/wp-content/uploads/2019/07/big-o-main.jpg" style="width: 100%">
+                                        </div>
+                                        <div class="col-md-6 product_content">
+                                            <h4>Product Id: <span>51526</span></h4>
+                                            <div class="rating">
+                                                <span class="glyphicon glyphicon-star"></span>
+                                                <span class="glyphicon glyphicon-star"></span>
+                                                <span class="glyphicon glyphicon-star"></span>
+                                                <span class="glyphicon glyphicon-star"></span>
+                                                <span class="glyphicon glyphicon-star"></span>
+                                                (10 reviews)
+                                            </div>
+                                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                                            <h3 class="cost"><span class="glyphicon glyphicon-usd"></span> 75.00 <small class="pre-cost"><span class="glyphicon glyphicon-usd"></span> 60.00</small></h3>
+                                            <div class="row">
+                                                <div class="col-md-4 col-sm-6 col-xs-12">
+                                                    <select class="form-control" name="select">
+                                                        <option value="" selected="">Color</option>
+                                                        <option value="black">Black</option>
+                                                        <option value="white">White</option>
+                                                        <option value="gold">Gold</option>
+                                                        <option value="rose gold">Rose Gold</option>
+                                                    </select>
+                                                </div>
+                                                <!-- end col -->
+                                                <div class="col-md-4 col-sm-6 col-xs-12">
+                                                    <select class="form-control" name="select">
+                                                        <option value="">Capacity</option>
+                                                        <option value="">#</option>
+                                                        <option value="">#</option>
+                                                        <option value="">#comingsoon</option>
+                                                        <option value="">#</option>
+                                                    </select>
+                                                </div>
+                                                <!-- end col -->
+                                                <div class="col-md-4 col-sm-12">
+                                                    <select class="form-control" name="select">
+                                                        <option value="" selected="">QTY</option>
+                                                        <option value="">1</option>
+                                                        <option value="">2</option>
+                                                        <option value="">3</option>
+                                                    </select>
+                                                </div>
+                                                <!-- end col -->
+                                            </div>
+                                            <div class="space-ten"></div>
+                                            <div class="btn-ground">
+                                                <button type="button" class="btn btn-primary"><span class="glyphicon glyphicon-shopping-cart"></span> Add To Cart</button>
+                                                <button type="button" class="btn btn-primary"><span class="glyphicon glyphicon-heart"></span> Add To Wishlist</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <figure class="card card-product-grid">
+                            <div class="img-wrap">
+                                <img src="https://cdn.vox-cdn.com/thumbor/ZhFbzwUZEw-Cl3mSQ5AxgPuQZ0g=/0x0:1516x1011/1200x800/filters:focal(637x385:879x627)/cdn.vox-cdn.com/uploads/chorus_image/image/64799718/bigo.0.jpg">
+                                <a class="btn-overlay" href="#"><i class="fa fa-search-plus"></i>
+                                    <button type="button" style="width: 100%; height: 35px" class="btn btn-primary" data-toggle="modal" data-target="#product_view7">
+                                        Quick view</button></a>
+                            </div> <!-- img-wrap.// -->
+                            <figcaption class="info-wrap">
+                                <div class="fix-height">
+                                    <a href="#" class="title">Product name goes here just for demo item</a>
+                                    <div class="price-wrap mt-2">
+                                        <span class="price">$1280</span>
+                                    </div> <!-- price-wrap.// -->
+                                </div>
+                                <a href="#" class="btn btn-block btn-primary">Add to cart </a>
+                            </figcaption>
+                        </figure>
+                    </div> <!-- col.// -->
+                    <div class="modal fade product_view" id="product_view7">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" id="example7" class="btn btn-primary">
+                                        <a style="color: white" href="Custom_pc.html">
+                                            close
+                                        </a>
+                                    </button>
+                                    <h3 class="modal-title">HTML5 is a markup language</h3>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="row">
+                                        <div class="col-md-6 product_img">
+                                            <img src="https://cdn.vox-cdn.com/thumbor/ZhFbzwUZEw-Cl3mSQ5AxgPuQZ0g=/0x0:1516x1011/1200x800/filters:focal(637x385:879x627)/cdn.vox-cdn.com/uploads/chorus_image/image/64799718/bigo.0.jpg" style="width: 100%">
+                                        </div>
+                                        <div class="col-md-6 product_content">
+                                            <h4>Product Id: <span>51526</span></h4>
+                                            <div class="rating">
+                                                <span class="glyphicon glyphicon-star"></span>
+                                                <span class="glyphicon glyphicon-star"></span>
+                                                <span class="glyphicon glyphicon-star"></span>
+                                                <span class="glyphicon glyphicon-star"></span>
+                                                <span class="glyphicon glyphicon-star"></span>
+                                                (10 reviews)
+                                            </div>
+                                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                                            <h3 class="cost"><span class="glyphicon glyphicon-usd"></span> 75.00 <small class="pre-cost"><span class="glyphicon glyphicon-usd"></span> 60.00</small></h3>
+                                            <div class="row">
+                                                <div class="col-md-4 col-sm-6 col-xs-12">
+                                                    <select class="form-control" name="select">
+                                                        <option value="" selected="">Color</option>
+                                                        <option value="black">Black</option>
+                                                        <option value="white">White</option>
+                                                        <option value="gold">Gold</option>
+                                                        <option value="rose gold">Rose Gold</option>
+                                                    </select>
+                                                </div>
+                                                <!-- end col -->
+                                                <div class="col-md-4 col-sm-6 col-xs-12">
+                                                    <select class="form-control" name="select">
+                                                        <option value="">Capacity</option>
+                                                        <option value="">#</option>
+                                                        <option value="">#</option>
+                                                        <option value="">#comingsoon</option>
+                                                        <option value="">#</option>
+                                                    </select>
+                                                </div>
+                                                <!-- end col -->
+                                                <div class="col-md-4 col-sm-12">
+                                                    <select class="form-control" name="select">
+                                                        <option value="" selected="">QTY</option>
+                                                        <option value="">1</option>
+                                                        <option value="">2</option>
+                                                        <option value="">3</option>
+                                                    </select>
+                                                </div>
+                                                <!-- end col -->
+                                            </div>
+                                            <div class="space-ten"></div>
+                                            <div class="btn-ground">
+                                                <button type="button" class="btn btn-primary"><span class="glyphicon glyphicon-shopping-cart"></span> Add To Cart</button>
+                                                <button type="button" class="btn btn-primary"><span class="glyphicon glyphicon-heart"></span> Add To Wishlist</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div> <!-- row end.// -->
+
+
+                <nav class="mt-4" aria-label="Page navigation sample">
+                    <ul class="pagination">
+                        <li class="page-item disabled"><a class="page-link" href="#">Previous</a></li>
+                        <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                        <li class="page-item"><a class="page-link" href="#">2</a></li>
+                        <li class="page-item"><a class="page-link" href="#">3</a></li>
+                        <li class="page-item"><a class="page-link" href="#">Next</a></li>
+                    </ul>
+                </nav>
+
+            </main> <!-- col.// -->
+
+        </div>
+
+    </div> <!-- container .//  -->
+</section>
+<!-- ========================= SECTION CONTENT END// ========================= -->
+
+<!-- ========================= FOOTER ========================= -->
+<footer class="container-fluid" id="footer">
+    <p class="float-right"><a style="color: black" href="#">Back to top</a></p>
+    <p>&copy; 2017-2018 Company, Inc. &middot; <a style="color: black" href="#">Privacy</a> &middot; <a href="#" style="color: black">Terms</a></p>
+</footer>
+<!-- ========================= FOOTER END // ========================= -->
+
+
+
+</body>
+</html>
